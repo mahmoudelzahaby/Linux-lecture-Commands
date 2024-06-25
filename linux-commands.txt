@@ -1,0 +1,86 @@
+I love DevOps
+Command option argument
+
+folder --> directory (dir)
+
+. is the place where I'm
+---------------------VIM Commands-----------------------------
+- to open vim 
+  vim [filename]
+- to edit (instert) --> i
+- to escape mode --> esc
+- to save
+  :wq --> normal
+  :wq! --> force
+- to quit without saving
+  :q!
+
+------------------shell Commands----------------------------
+- to list 
+  ls --> normal
+  ls -a --> to list all including hidden files
+  ls -l --< to show permissions
+
+- os name
+  uname --> os
+  uname -n --> user
+  uname -a 
+- to know the manual uses 
+  man [Command]
+
+- to know where Iam 
+  pwd
+
+- cat filename
+  show file content
+
+- change dir
+  cd --> home
+  cd .. --> revert one step back
+  cd ../.. --> to more the a step
+  cd ~ --> home
+  cd /home/username --> home
+  cd - --> revert back to latest dir
+  cd /  --> to root
+
+- to freeze terminal
+  sleep [argument]
+
+- to create dir
+  mkdir [name]
+  mkdir -p dirfather/dirson --> to create tree dirs
+
+- to remove files
+  rm filename
+
+- to remove dir
+  rmdir dirname --> empty dir
+  rm -r dirname --> non empty dir
+
+- to copy
+  cp source dest
+  cp -i --> to prevent overwrite
+  cp -r --> to change behavior to act with dirs
+
+- to change the name of the file or dir
+  mv oldname newname  
+
+- to move
+  mv src dest
+  
+  
+------------------------------------ lec 2
+
+- to know the current user
+  whoami
+
+- to add user
+  adduser username
+
+- to change file permissions
+  chmod u+x filename
+  chmod g=rw filname
+  chmod o-r filename
+  chmod 754 filename
+
+
