@@ -1,5 +1,4 @@
 I love DevOps
-I love Qal
 Command option argument
 
 folder --> directory (dir)
